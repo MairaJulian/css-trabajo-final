@@ -4,7 +4,8 @@
     font-family: 'Nanum Gothic', sans-serif;
 }
 
-.headerGrid {
+#headerGrid {
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 300px;
@@ -12,6 +13,16 @@
     align-items: center; */
     border-bottom: 1px solid gray;
     box-shadow: 0px 1px 5px black;
+}
+
+.star {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background-color: rgb(255, 0, 212);
+    border-radius: 50%;
+    pointer-events: none;
+    transform-origin: center;
 }
 
 .box1 {
