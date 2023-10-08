@@ -17,5 +17,5 @@ document.addEventListener('mousemove', (e) => {
 
     setTimeout(() => {
         star.remove();
-    }, 500);
+    }, 200);
 })
