@@ -19,3 +19,7 @@ document.addEventListener('mousemove', (e) => {
         star.remove();
     }, 200);
 })
+
+document.getElementById('button1').addEventListener('click', function (e) {
+    e.preventDefault()
+})
