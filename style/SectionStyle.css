@@ -27,7 +27,7 @@
 }
 
 .sectionProjects {
-    background-color: red;
+    /* background-color: red; */
     width: 60%;
     height: 60%;
     display: grid;
@@ -39,7 +39,7 @@
 }
 
 .projectContainer {
-    /* background-color: red; */
+    /* background-color: green; */
     width: 300px;
     height: 200px;
     display: flex;
@@ -67,28 +67,43 @@
 }
 
 .sectionApps {
-    background-color: red;
+    /* background-color: red; */
     width: 60%;
     height: 60%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-auto-rows: 200px;
-    place-items: center;
-    gap: 50px;
+    grid-auto-rows: 470px;
+    gap: 80px 60px;
     
 }
 
 .appContainer {
-    width: 300px;
-    height: 200px;
+    /* background-color: green;
+    border: 1px solid black; */
+    width: 200px;
+    height: 460px;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
+.appContainer a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
 .gif {
-    width: 100px;
+    width: 200px;
     height: auto;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.githubApp {
+    width: 25px;
+    height: auto;
+    cursor: pointer;
 }
 
 @media (min-width: 767px) {
@@ -121,9 +136,18 @@
         height: 80%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-auto-rows: 300px;
-        place-items: center;
-        gap: 50px 0px;
+        grid-auto-rows: 470px;
+        gap: 0px 50px;
         
+    }
+
+    .appContainer {
+        /* background-color: green;
+        border: 1px solid black; */
+        width: 200px;
+        height: 460px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 }
