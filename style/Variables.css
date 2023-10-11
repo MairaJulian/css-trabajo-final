@@ -1,5 +1,11 @@
 :root {
     --ff-1: 'Open Sans', sans-serif;
     --ff-2: 'Annie Use Your Telescope', cursive;
+
+    --cl-1: #012E40;
+    --cl-2: #024959;
+    --cl-3: #026773;
+    --cl-4: #3CA6A6;
+    --cl-5: #F2E3D5;
     
 }
