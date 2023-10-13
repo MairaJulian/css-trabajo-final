@@ -25,5 +25,6 @@ document.getElementById('button1').addEventListener('click', function (e) {
     console.log('haciendo click');
     const proyectosSection = document.getElementById('sectionTitle')
     proyectosSection.scrollIntoView({ behavior: 'smooth' })
-    // proyectosSection.scrollIntoView({ behavior: 'smooth' })
 })
+
+  
